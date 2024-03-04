@@ -114,4 +114,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login('Bots Token');
+client.login('Bots Token'); //Add Bot token to this, put inside the quotation marks.
