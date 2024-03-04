@@ -102,7 +102,7 @@ client.on('messageCreate', async (message) => {
     // This Function is to ping the victim's id and insults them with an insult from insult array in specifc channel from insultChannelId variable, chosen randomly. 
     // This Bot was designed for one specific person to get both functions at the time this was made, but you can choose 2 different victims and they each get one function used on them. 
    // Check if the message is in the insult channel and sent by a specific user
-   if (message.channelId === insultChannelId && message.author.id === '712870104685215748') {
+   if (message.channelId === insultChannelId && message.author.id === 'Put in User ID') {
     try {
       // Ping the user and send a random insult
       const insultedUser = `<@${message.author.id}>`; // Mention the user using <@userId>
